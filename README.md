@@ -2,13 +2,13 @@
 
 # 🚀 Faa Ramadhan Portfolio
 
-### Personal Developer Portfolio Website
+### Personal Portfolio Website
 
 <img src="https://img.shields.io/badge/Status-Online-success?style=for-the-badge">
 <img src="https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/Responsive-Yes-orange?style=for-the-badge">
 
-🌐 Live Website: https://faaramadhan2.github.io
+🌐 Website: https://faaramadhan2.github.io
 
 </div>
 
@@ -18,15 +18,15 @@
 
 This repository contains my personal portfolio website.
 
-The website showcases:
+The website is built to showcase:
 
 - 👨‍💻 About Me
-- 🛠️ Skills & Tech Stack
+- 🛠️ Skills & Technologies
 - 📂 Projects
 - 📜 Experience
 - 📞 Contact Information
 
-Designed with a modern responsive UI and smooth user experience.
+Built with a modern, responsive, and lightweight design.
 
 ---
 
@@ -35,7 +35,7 @@ Designed with a modern responsive UI and smooth user experience.
 ✅ Responsive Design  
 ✅ Modern UI/UX  
 ✅ Smooth Animations  
-✅ Project Showcase Section  
+✅ Project Showcase  
 ✅ Skills Section  
 ✅ Contact Section  
 ✅ Fast Loading  
@@ -47,7 +47,7 @@ Designed with a modern responsive UI and smooth user experience.
 
 | Technology | Usage |
 |---|---|
-| HTML5 | Structure |
+| HTML5 | Website Structure |
 | CSS3 | Styling |
 | JavaScript | Interactivity |
 | GitHub Pages | Deployment |
@@ -68,17 +68,15 @@ Designed with a modern responsive UI and smooth user experience.
 
 ---
 
-# 🚀 Deployment
+# 🚀 Run Locally
 
-This portfolio is deployed using **GitHub Pages**.
-
-### Run Locally
+Clone the repository:
 
 ```bash
 git clone https://github.com/FaaRamadhan2/FaaRamadhan2.github.io.git
 ```
 
-Open:
+Then open:
 
 ```bash
 index.html
@@ -88,13 +86,12 @@ index.html
 
 # 📸 Preview
 
-> Modern personal portfolio website for showcasing projects and developer profile.
+> Modern portfolio website for showcasing projects and personal profile.
 
 ---
 
 # 📬 Contact
 
-📧 Email: your-email@example.com  
 🐙 GitHub: https://github.com/FaaRamadhan2
 
 ---
@@ -116,6 +113,6 @@ This project is open-source and available under the MIT License.
 
 <div align="center">
 
-Made with ❤️ by Faa Ramadhan
+Made with ✨ by Faa Ramadhan
 
 </div>
