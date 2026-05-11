@@ -19073,7 +19073,7 @@ Error generating stack: ` +
             }),
             D.jsx("div", {
               className: "text-xs text-muted-foreground hidden sm:block",
-              children: "V 1.0.0 // STATUS: ONLINE",
+              children: "V Beta-0.0.5 // STATUS: ONLINE",
             }),
           ],
         }),
