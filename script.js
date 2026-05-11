@@ -19771,7 +19771,7 @@ Error generating stack: ` +
             }),
             D.jsx("p", {
               className: "mt-1 text-primary opacity-40",
-              children: "Fa*** Ra****** & Ra*** Au******",
+              children: "Fa*** Ra*****n & Ra*** Au*****q",
             }),
           ],
         }),
