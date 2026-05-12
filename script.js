@@ -19071,9 +19071,20 @@ Error generating stack: ` +
               className: "text-primary font-bold tracking-tighter text-lg",
               children: "Faa.",
             }),
-            D.jsx("div", {
-              className: "text-xs text-muted-foreground hidden sm:block",
-              children: "V Beta-0.0.5 // STATUS: ONLINE",
+            D.jsxs("nav", {
+              className:
+                "fixed top-0 left-0 right-0 z-50 flex justify-between items-center gap-3 px-4 md:px-12 py-4 backdrop-blur-sm border-b border-border/30",
+              children: [
+                D.jsx("div", {
+                  className: "text-primary font-bold tracking-tighter text-lg shrink-0",
+                  children: "Faa.",
+                }),
+                D.jsx("div", {
+                  className:
+                    "block text-[10px] sm:text-xs text-muted-foreground whitespace-nowrap overflow-hidden text-ellipsis",
+                  children: "V Beta-0.0.5 // STATUS: ONLINE",
+                }),
+              ],
             }),
           ],
         }),
