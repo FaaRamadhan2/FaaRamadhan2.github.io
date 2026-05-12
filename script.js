@@ -19086,7 +19086,7 @@ Error generating stack: ` +
                     className: "flex flex-col items-end leading-tight",
                     children: [
                       D.jsx("span", {
-                        children: "V Beta-0.0.5 // STATUS: ONLINE",
+                        children: "V Beta-0.1.1 // STATUS: ONLINE",
                       }),
                       D.jsx("span", {
                         className: "text-[9px] sm:text-[10px] text-primary opacity-80",
