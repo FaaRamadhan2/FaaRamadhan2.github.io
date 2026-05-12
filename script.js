@@ -19082,7 +19082,18 @@ Error generating stack: ` +
                 D.jsx("div", {
                   className:
                     "block text-[10px] sm:text-xs text-muted-foreground whitespace-nowrap overflow-hidden text-ellipsis",
-                  children: "V Beta-0.1.0 // STATUS: ONLINE",
+                  children: D.jsxs("div", {
+                    className: "flex flex-col items-end leading-tight",
+                    children: [
+                      D.jsx("span", {
+                        children: "V Beta-0.0.5 // STATUS: ONLINE",
+                      }),
+                      D.jsx("span", {
+                        className: "text-[9px] sm:text-[10px] text-primary opacity-80",
+                        children: "NEW UPDATE: NOVEMBER 2026",
+                      }),
+                    ],
+                  }),
                 }),
               ],
             }),
