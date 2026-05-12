@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/Responsive-Yes-orange?style=for-the-badge">
 
-🌐 Website: [https://faaramadhan2.github.io](https://faaramadhan-portfolio.vercel.app/)
+🌐 Website: [Faa Ramadhan](https://faaramadhan-portfolio.vercel.app/)
 
 </div>
 
