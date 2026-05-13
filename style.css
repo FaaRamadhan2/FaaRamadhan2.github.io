@@ -5275,50 +5275,65 @@
 }
 
 /* ==================================================
-   FIX: Chrome Mobile duplicate/overlap text on "Faa"
-   Target: mobile rendering bug / stacked alias text
+   FIX MOBILE HERO TITLE OVERLAP: "Faa."
+   Chrome Android / small viewport
    ================================================== */
 
 @media (max-width: 768px) {
-  h1,
-  h1 *,
-  [class*="text-6xl"],
-  [class*="text-7xl"],
-  [class*="tracking-tighter"],
-  [class*="tracking-tight"] {
-    text-rendering: geometricPrecision;
-    -webkit-font-smoothing: antialiased;
-    transform: translateZ(0);
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-  }
-
+  main h1,
+  section h1,
   h1 {
-    line-height: 0.95 !important;
-    letter-spacing: -0.045em !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    white-space: nowrap !important;
     overflow: visible !important;
-    white-space: normal !important;
+
+    font-size: clamp(3.2rem, 18vw, 4.8rem) !important;
+    line-height: 1 !important;
+    letter-spacing: -0.03em !important;
+
+    transform: none !important;
+    filter: none !important;
+    text-shadow: none !important;
+    word-spacing: normal !important;
   }
 
-  h1 span,
-  h1 div {
-    position: relative;
-    display: inline-block;
-    line-height: inherit;
+  main h1 *,
+  section h1 *,
+  h1 * {
+    display: inline !important;
+    position: static !important;
+
+    transform: none !important;
+    translate: none !important;
+    rotate: none !important;
+    scale: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    letter-spacing: inherit !important;
+    line-height: inherit !important;
+
+    filter: none !important;
+    text-shadow: none !important;
+    animation: none !important;
+    transition: none !important;
   }
 
-  h1 span::before,
-  h1 span::after,
-  h1 div::before,
-  h1 div::after {
-    pointer-events: none;
+  main h1 br,
+  section h1 br,
+  h1 br {
+    display: none !important;
   }
 }
 
-/* Extra guard for very small Chrome Android width */
 @media (max-width: 430px) {
+  main h1,
+  section h1,
   h1 {
-    font-size: clamp(2.6rem, 15vw, 4.2rem) !important;
-    letter-spacing: -0.04em !important;
+    font-size: clamp(3rem, 17vw, 4rem) !important;
+    letter-spacing: -0.02em !important;
   }
 }
